@@ -1,0 +1,52 @@
+body{
+    width: 90%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+#Members_Profile{
+    text-align: center;
+    margin: 15px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+#login{
+    width: 50%;
+    margin: auto;
+    background-color: aqua;
+    text-align: center;
+}
+
+#Account{
+    width:40%;
+    margin: auto;
+    background-color: aqua;
+    text-align: center;
+
+}
+
+#gridcont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.b1 {
+    border: solid 1px salmon;
+    height: 300px;
+    width: 300px;
+}
+
+.b2 {
+    border: solid 1px salmon;
+    height: 300px;
+    width: 300px;
+}
+
+.b3 {
+    border: solid 1px salmon;
+    height: 300px;
+    width: 300px;
+}
