@@ -3,7 +3,14 @@ body{
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
+    background-color: #ffc2d1;
 }
+
+.navbar-custom {
+    background-color: #ade8f4;
+    
+}
+
 
 #Members_Profile{
     text-align: center;
@@ -15,16 +22,16 @@ body{
 }
 
 #login{
-    width: 50%;
+    width: 100%;
     margin: auto;
-    background-color: aqua;
+    background-color:#cdb4db;
     text-align: center;
 }
 
 #Account{
-    width:40%;
+    width:100%;
     margin: auto;
-    background-color: aqua;
+    background-color: #cdb4db;
     text-align: center;
 
 }

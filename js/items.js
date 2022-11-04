@@ -1,3 +1,5 @@
+
+
 function addItemCard(item){
     const itemHTML = '<div class="card" style="width: 20rem;">\n' +
         '    <img src="'+item.img +'" width="300" height="250"  alt="product image">\n' +
