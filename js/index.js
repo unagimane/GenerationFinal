@@ -1,7 +1,10 @@
 import ItemController from "./itemsController.js";
 
+
 //id generator
 let idGen = (Math.floor(Math.random() * 2));
+let item = new ItemController()
+
 
 //input from html
 let currentId = idGen;
