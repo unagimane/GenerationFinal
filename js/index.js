@@ -16,14 +16,18 @@ const img = document.getElementById('imgurl');
 const btn = document.getElementById('button');
 
 //display data
-const displayData = document.getElementById('display');
+const displayTitle = document.getElementById('displaytitle');
+const displayDescription = document.getElementById('displaydescription');
 const displayImage = document.getElementById('image');
+const postDate = document.getElementById('time');
 
 //create instance
 const addItem = () => {
     let item = new ItemController(currentId++, name.value, description.value, img.value);
     displayImage.src = `${img.value}`;
-    displayData.innerHTML = `Item ID: ${currentId} Name: ${name.value} Description: ${description.value}`;
+    displayTitle.innerHTML = `${name.value}`;
+    displayDescription.innerHTML = `${description.value}`;
+    postDate.innerHTML = Date();
     console.log(item);
 }
 
