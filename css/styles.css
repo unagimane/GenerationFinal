@@ -13,6 +13,7 @@ body{
 .navbar-brand {
     margin-left: 20px;
 }
+
 #login{
     width: 50%;
     margin: auto;
@@ -26,11 +27,6 @@ body{
     background-color: aqua;
     text-align: center;
 
-}
-
-#gridcont {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .b1 {
@@ -52,16 +48,33 @@ body{
 }
 
 #avocado{
-    width: 50%;
+    width: 100%;
     height: 50%;
+    max-height: 650px;
 }
 
 #fruits{
-    width: 50%;
+    width: 100%;
     height: 50%;
+    max-height: 650px;
 }
 
 #banana{
-    width: 50%;
+    width: 100%;
     height: 50%; 
+    max-height: 650px;
+}
+
+#newcard {
+    width: 100%;
+    height: 50%; 
+    max-height: 650px;
+}
+
+.card-deck {
+    max-width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    width: fit-content;
 }
