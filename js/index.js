@@ -31,7 +31,12 @@ const addItem = () => {
     postDate.innerHTML = Date();
     console.log(item);
     document.getElementById('emptyCard').hidden = false;
+
+    var form = document.querySelector('#input');
+    form.reset();
+
 }
+
 
 
 //submit functionality
