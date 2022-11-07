@@ -27,14 +27,17 @@ const loadStorageSampleData = () => {
     'img' : '/src/bananaPlushie.jpeg',
     'description' : 'This is a giant banana plushie.'}];
     localStorage.setItem('items', JSON.stringify(sampleItems));
+  
  }
-}
+ 
 
 function loadCardsListFromItemsController(){
     for(let i = 0, size = itemsController.items.length; i < size ; i++){
         const item = itemsController.items[i];
         addItemCard(item);
+        }
     }
+ 
 }
 
 loadStorageSampleData();
