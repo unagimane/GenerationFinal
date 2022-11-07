@@ -24,8 +24,8 @@ const btn = document.getElementById('button');
 
 //create instance
 const addItem = () => {
-    let item = new ItemController(currentId++, name.value, description.value, img.value);
-    if(name.vale === "" || description.value === ""  || img.value === ""){
+    let item = new ItemController(currentId, name.value, description.value, img.value);
+    if(name.value === "" || description.value === ""  || img.value === ""){
         alert("Please enter your information.");
       }else{
     const container = document.createElement("div");
@@ -74,10 +74,10 @@ const addItem = () => {
     // displayTitle.innerHTML = `${name.value}`;
     // displayDescription.innerHTML = `${description.value}`;
     // postDate.innerHTML = Date();
-    // console.log(item);
+    console.log(item);
     // document.getElementById('emptyCard').hidden = false;
 
-
+    currentId++;
     
 
     
