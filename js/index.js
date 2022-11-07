@@ -20,6 +20,7 @@ const displayTitle = document.getElementById('displaytitle');
 const displayDescription = document.getElementById('displaydescription');
 const displayImage = document.getElementById('image');
 const postDate = document.getElementById('time');
+document.getElementById('emptyCard').hidden = true;
 
 //create instance
 const addItem = () => {
@@ -29,6 +30,7 @@ const addItem = () => {
     displayDescription.innerHTML = `${description.value}`;
     postDate.innerHTML = Date();
     console.log(item);
+    document.getElementById('emptyCard').hidden = false;
 }
 
 
